@@ -63,9 +63,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash[:holiday_supplies].map do |array|
-    array.to_s
-    
-
+    puts array.to_s.capitalize!
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
